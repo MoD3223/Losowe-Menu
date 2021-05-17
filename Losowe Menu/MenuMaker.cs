@@ -8,7 +8,7 @@ namespace Losowe_Menu
 {
     class MenuMaker
     {
-        public Random Randomizer;
+        public Random Randomizer = new Random();
 
 
         string[] Meats = { "Pieczona wołowina", "Salami", "Indyk", "Szynka", "Karkówka" };
